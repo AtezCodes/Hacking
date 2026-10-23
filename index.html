@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REDSHELL // The Hacker Mindset</title>
+<meta name="description" content="An introduction to hacking culture, ethical hacking, and cybersecurity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="rain"></canvas>
+<div class="vignette"></div>
+
+<header class="nav">
+<a href="#top" class="logo">RED<span>SHELL</span></a>
+<button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+<span></span><span></span><span></span>
+</button>
+<nav id="navLinks">
+<a href="#about">About</a>
+<a href="#hats">Hats</a>
+<a href="#history">History</a>
+<a href="#paths">Paths</a>
+<a href="#terminal">Terminal</a>
+<a href="#defense">Defense</a>
+</nav>
+</header>
+
+<main id="top">
+<section class="hero">
+<p class="tag">// access granted</p>
+<h1 class="glitch" data-text="THE HACKER MINDSET">THE HACKER MINDSET</h1>
+<p class="typed-line"><span id="typed"></span><span class="cursor">_</span></p>
+<p class="lead">Hacking is curiosity with a keyboard. It is about understanding how systems really work, finding the cracks, and making things stronger or simply making them do something new.</p>
+<div class="cta">
+<a href="#terminal" class="btn primary">Open Terminal</a>
+<a href="#about" class="btn ghost">Learn More</a>
+</div>
+<div class="stats">
+<div class="stat"><strong data-count="5000000">0</strong><span>Security jobs unfilled worldwide</span></div>
+<div class="stat"><strong data-count="1960">0</strong><span>Year the term took hold at MIT</span></div>
+<div class="stat"><strong data-count="100">0</strong><span>Percent legal when you have permission</span></div>
+</div>
+</section>
+
+<section id="about" class="section">
+<div class="wrap">
+<h2 class="reveal"><span>01</span> What is hacking?</h2>
+<div class="grid two">
+<p class="reveal">At its core, hacking means using technical skill and creativity to understand a system more deeply than its designers intended. It started as a playful term among engineers who loved clever solutions, and it grew into a global discipline that now protects banks, hospitals, governments and everyday people.</p>
+<p class="reveal">Modern security professionals call this work penetration testing, red teaming, vulnerability research or bug bounty hunting. They are paid to think like an attacker so that real attackers find nothing left to exploit.</p>
+</div>
+<div class="grid three cards">
+<article class="card reveal">
+<h3>Curiosity</h3>
+<p>Every great hacker asks one question constantly: what happens if I do this instead?</p>
+</article>
+<article class="card reveal">
+<h3>Persistence</h3>
+<p>Most problems fall after hours of failed attempts. Patience beats raw talent.</p>
+</article>
+<article class="card reveal">
+<h3>Ethics</h3>
+<p>Skill without permission is a crime. Skill with consent is a career.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="hats" class="section alt">
+<div class="wrap">
+<h2 class="reveal"><span>02</span> The hat system</h2>
+<p class="sub reveal">Tap a card to see how the community describes each group.</p>
+<div class="hats">
+<button class="hat reveal" data-hat="white">
+<span class="dot white"></span>
+<h3>White Hat</h3>
+<p class="hat-text">Authorized security professionals who find and report weaknesses so they can be fixed. They work with permission, contracts and clear scope.</p>
+</button>
+<button class="hat reveal" data-hat="grey">
+<span class="dot grey"></span>
+<h3>Grey Hat</h3>
+<p class="hat-text">Researchers who probe systems without permission but usually without malicious intent. Still legally risky, and often disclosed publicly afterwards.</p>
+</button>
+<button class="hat reveal" data-hat="black">
+<span class="dot black"></span>
+<h3>Black Hat</h3>
+<p class="hat-text">Criminals who break into systems for profit, disruption or theft. This is the behavior the whole security industry exists to stop.</p>
+</button>
+</div>
+</div>
+</section>
+
+<section id="history" class="section">
+<div class="wrap">
+<h2 class="reveal"><span>03</span> A short history</h2>
+<div class="timeline">
+<div class="event reveal">
+<time>1960s</time>
+<div><h3>MIT and the first hackers</h3><p>Students at MIT's Tech Model Railroad Club use the word hack for an elegant, clever technical solution.</p></div>
+</div>
+<div class="event reveal">
+<time>1971</time>
+<div><h3>Phone phreaking</h3><p>Explorers discover how to manipulate the telephone network with tones, sparking the first wave of hacker culture.</p></div>
+</div>
+<div class="event reveal">
+<time>1988</time>
+<div><h3>The Morris Worm</h3><p>One of the first internet worms spreads across thousands of machines and leads to the creation of the first CERT.</p></div>
+</div>
+<div class="event reveal">
+<time>1993</time>
+<div><h3>DEF CON begins</h3><p>A small party in Las Vegas grows into the largest hacker conference in the world.</p></div>
+</div>
+<div class="event reveal">
+<time>2010s</time>
+<div><h3>Bug bounties go mainstream</h3><p>Companies begin paying researchers openly to find flaws, turning curiosity into a respected profession.</p></div>
+</div>
+<div class="event reveal">
+<time>Today</time>
+<div><h3>Security everywhere</h3><p>Cloud, mobile, AI and connected devices make security skills some of the most valuable in technology.</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="paths" class="section alt">
+<div class="wrap">
+<h2 class="reveal"><span>04</span> Start your path</h2>
+<p class="sub reveal">Legal ways to practice and grow.</p>
+<div class="grid four cards">
+<article class="card reveal">
+<div class="num">01</div>
+<h3>Learn the basics</h3>
+<p>Networking, Linux, operating systems, and one scripting language such as Python.</p>
+</article>
+<article class="card reveal">
+<div class="num">02</div>
+<h3>Play CTFs</h3>
+<p>Capture the flag contests teach real techniques in safe, legal environments.</p>
+</article>
+<article class="card reveal">
+<div class="num">03</div>
+<h3>Build a home lab</h3>
+<p>Run virtual machines you own and break them on purpose to see how they fail.</p>
+</article>
+<article class="card reveal">
+<div class="num">04</div>
+<h3>Go professional</h3>
+<p>Join bug bounty programs with clear rules, or pursue recognized security certifications.</p>
+</article>
+</div>
+
+<div class="skills reveal">
+<h3>Core skills</h3>
+<div class="bar"><label>Networking</label><div><i data-w="90"></i></div></div>
+<div class="bar"><label>Linux</label><div><i data-w="85"></i></div></div>
+<div class="bar"><label>Scripting</label><div><i data-w="80"></i></div></div>
+<div class="bar"><label>Web security</label><div><i data-w="75"></i></div></div>
+<div class="bar"><label>Cryptography</label><div><i data-w="60"></i></div></div>
+</div>
+</div>
+</section>
+
+<section id="terminal" class="section">
+<div class="wrap">
+<h2 class="reveal"><span>05</span> Interactive terminal</h2>
+<p class="sub reveal">A harmless demo. Type <code>help</code> to see what it understands.</p>
+<div class="term reveal">
+<div class="term-bar"><i></i><i></i><i></i><span>guest@redshell:~</span></div>
+<div class="term-body" id="termBody">
+<div id="termOut"></div>
+<div class="term-line">
+<span class="prompt">guest@redshell:~$</span>
+<input id="termIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Terminal input">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="defense" class="section alt">
+<div class="wrap">
+<h2 class="reveal"><span>06</span> Stay protected</h2>
+<p class="sub reveal">Knowing how attacks work is useless if you ignore the basics.</p>
+<ul class="checks">
+<li class="reveal">Use a password manager and a unique password for every account.</li>
+<li class="reveal">Turn on multi-factor authentication, preferably with an app or hardware key.</li>
+<li class="reveal">Install updates quickly. Most breaches use flaws that already have a fix.</li>
+<li class="reveal">Treat unexpected links and attachments with suspicion, even from people you know.</li>
+<li class="reveal">Back up important files and keep one copy offline.</li>
+<li class="reveal">Only test systems you own or have written permission to test.</li>
+</ul>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<p>REDSHELL // For education and awareness. Always hack legally and ethically.</p>
+<a href="#top" class="btn ghost small">Back to top</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
